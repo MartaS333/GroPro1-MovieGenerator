@@ -6,9 +6,7 @@ body {
   background-image: url("../assets/images/patterncolor.png");
   background-size: 1080px 1080px;
   background-position: fixed;
-
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
   padding-top: 5%;
 }
 
@@ -51,8 +49,8 @@ button:active,
   font-family: "Manjari", sans-serif;
   font-size: 25px;
   color: rgb(48, 101, 114);
-  margin-top: -2px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 50px;
 }
 .movie-poster {
   width: 400px;
@@ -67,6 +65,10 @@ button:active,
   border-radius: 10px;
   border: none;
   padding: 10px;
+}
+#currentDay {
+  margin-top: -5%;
+  margin-left: 40%;
 }
 /*make navbar text inline*/
 /*.navbar h3, form {

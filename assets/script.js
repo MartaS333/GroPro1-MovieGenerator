@@ -4,12 +4,16 @@ const startUI = document.querySelector(".start-ui");
 const nameValue = document.querySelector("#name-val");
 const genreInput = document.querySelector("#genre");
 const displayMovie = document.querySelector(".display-movie");
+const selectionButtons = document.querySelector(".buttons");
 var userName = "";
 var genreName = "";
+let todaysDateEl = $("#currentDay");
+const IMGPATH = "https://image.tmdb.org/t/p/w1280";
 
 returnUI.classList.add("none");
 
-const IMGPATH = "https://image.tmdb.org/t/p/w1280";
+//Code generating date
+todaysDateEl.text(moment().format("dddd, MMMM Do YYYY, h:mm A "));
 
 //Event listeners
 
@@ -88,7 +92,6 @@ function showMovie(movie) {
             <p><strong>Year:</strong> ${getYear(movie.release_date)} </p>
             <p class="overview" tabindex="0" role="document">
             ${movie.overview}</p>
-            
         </div>
     `;
   console.log(movie.title);

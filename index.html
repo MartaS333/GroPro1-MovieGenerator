@@ -14,10 +14,12 @@
 
             <div class="headerlogo">
             <h1 class="title">Movie Night Generator</h1>
+            <p id="currentDay"></p>
             <!--add logo-->
             </div>
 
             <h3 class="logo">Leave the decision making to us.</h3>
+            
 
         </header>
 
@@ -80,8 +82,8 @@
 
             </div>
             <div class="buttons">
-                <button class="change-genre btn">Change Genre</button>
-                <button class="retry btn">Try Again!</button>
+                <button class="change-genre btn" id="changeBtn" style="visibility:visible">Change Genre</button>
+                <button class="retry btn" id= "retryBtn" style="visibility:visible">Try Again!</button>
             </div>
         </section>
 
@@ -91,6 +93,8 @@
 
     </main>
    <!--js file --> 
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
    <script src="./assets/script.js"></script>
 </body>
 </html>
