@@ -1,7 +1,7 @@
 # Movie Night Generator
-It's a friday night and you don't know what to watch
-The Movie Night Generator App will do all the work for you
-And help you pick a movie based on the genre you are in the mood for.
+It's a friday night and you don't know what to watch <br />
+The Movie Night Generator App will do all the work for you <br />
+It'll help you pick a movie based on the genre you are in the mood for. <br />
 
 Technologies deployed for this Movie Night Generator are:
 * HTML
