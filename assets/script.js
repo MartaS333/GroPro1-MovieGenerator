@@ -77,6 +77,7 @@ async function getMovies() {
 
     setTimeout(() => err.remove(), 3000);
   }
+  //   let movie = showMovie(resData.results[randomNumber]);
 }
 function showMovie(movie) {
   displayMovie.innerHTML = `
@@ -152,3 +153,5 @@ function displayStartUI() {
   returnUI.classList.add("none");
   startUI.style.display = "block";
 }
+
+// window.localStorage.setItem("movieName", "movie");
