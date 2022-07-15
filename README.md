@@ -10,5 +10,9 @@ Technologies deployed for this Movie Night Generator are:
 * Json
 * TMDB API
 
+** Link to App**
+https://martas333.github.io/GroPro1-MovieGenerator/
 
-Link to app: https://martas333.github.io/GroPro1-MovieGenerator/
+**Image of website:**
+
+![My website](assets/images/movienight.png)
